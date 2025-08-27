@@ -1,0 +1,30 @@
+{
+  "execution_timestamp": "2025-08-26T15:43:07.248698",
+  "pipeline_config": {
+    "surrogate_model_type": "random_forest",
+    "encoding_type": "label",
+    "n_synthetic_samples": 1000,
+    "target_columns": [
+      "Yield"
+    ],
+    "categorical_columns": [
+      "promoter",
+      "ori",
+      "antibiotic",
+      "rbs",
+      "poi",
+      "terminator"
+    ]
+  },
+  "model_performance": {
+    "Yield_mse": 65.0331329850504,
+    "Yield_rmse": 8.064312307013562,
+    "Yield_mae": 6.8518870448361815,
+    "Yield_r2": 0.4744231677944283
+  },
+  "data_paths": {
+    "historical_data": "/var/folders/9g/plg2lfsx6rgc33tpymhn4g200000gn/T/training_112c1027c38b4a0fb8b3a5f3a0c0e65b.csv",
+    "prediction_input": "/var/folders/9g/plg2lfsx6rgc33tpymhn4g200000gn/T/input_e541fce24b0541888caf3c5f3d98bd87.csv",
+    "output": "/var/folders/9g/plg2lfsx6rgc33tpymhn4g200000gn/T/input_e541fce24b0541888caf3c5f3d98bd87_results.csv"
+  }
+}

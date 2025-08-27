@@ -1,0 +1,28 @@
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+
+# Copula modeling
+copulas>=0.9.0
+
+# Additional ML libraries
+scipy>=1.9.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Utilities
+pathlib2>=2.3.0
+typing-extensions>=4.0.0
+
+# Web app
+Flask>=2.2.0
+
+# Optional: Advanced ML models
+# tensorflow>=2.10.0  # Uncomment if using Bayesian NN
+# torch>=1.12.0       # Uncomment if using PyTorch-based models
+
+# Development and testing (optional)
+# pytest>=7.0.0
+# jupyter>=1.0.0
+# ipykernel>=6.0.0 
